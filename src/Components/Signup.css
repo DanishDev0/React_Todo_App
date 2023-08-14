@@ -1,0 +1,57 @@
+
+/* ================= React Phone Input =============== */
+
+.react-tel-input .form-control {
+  width: 100% !important;
+  height: 55px !important;
+}
+.MuiInput-underline {
+  border: none !important;
+}
+.MuiInput-underline::before {
+  display: none;
+}
+.MuiInput-underline::after {
+  display: none;
+}
+
+.react-tel-input .form-control {
+  border: none !important;
+}
+.react-tel-input .selected-flag:hover, .react-tel-input .selected-flag:focus{
+    background: transparent !important;
+}
+.react-tel-input .flag-dropdown.open .selected-flag{
+    background-color: transparent !important;
+}
+.react-tel-input .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+    left:30px;
+}
+.react-tel-input .flag-dropdown {
+  background: transparent;
+  border: none !important;
+}
+
+.react-tel-input .css-14lo706 span {
+}
+.react-tel-input .form-control {
+  padding-left: 0 !important;
+}
+.react-tel-input input {
+  margin-left: 30px;
+}
+.react-tel-input .selected-flag .arrow{
+  /* display: none; */
+}
+/* ================================= */
+
+/* ============ React OTP Input =========== */
+.react-otp-wrap input{
+width: 50px !important;
+height: 50px;
+}
+.react-otp-wrap div{
+  justify-content: center;
+  align-items: center;
+  padding:10px 0px;
+}

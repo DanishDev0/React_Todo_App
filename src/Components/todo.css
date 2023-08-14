@@ -1,0 +1,226 @@
+.login_wrapper{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login_box{
+    /* background: #dddddd; */
+    border-radius: 0.35rem;
+}
+.login_logo img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+}
+.ct-toast{
+  padding: 0px 20px !important;
+}
+.box-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #9c9c9c;
+    padding: 2rem 1.5rem;
+    border-radius: 0.35rem;
+}
+.box-div h3{
+    font-size: 1.3rem;
+    text-align: center;
+}
+.box-div:hover{
+    background:#dddddd;
+}
+.box-div-2 {
+  padding: 2rem;
+  background: #9c9c9c;
+  border-radius: 0.35rem;
+  width: 54vw;
+  height: 78vh;
+}
+.box-div-2{
+
+}
+.box-div-2:hover{
+    background: #dddddd;
+}
+.box-div-2:hover .todo-list{
+    background-color: #cfcfcf;
+
+}
+.todo-list svg{
+    fill:black;
+}
+
+.cont-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.cont-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.dform label {
+  margin-bottom: 10px;
+  font-weight: 500;
+  /* color: #8d8495; */
+  color: black;
+  font-size: 1.2rem;
+}
+
+.dform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30vw;
+}
+
+.dform button {
+  margin: 15px 0px;
+}
+
+.todo-list-wrapper {
+  height: 70vh;
+  overflow: auto;
+  overflow-x: hidden;
+  padding-right: 6px;
+}
+
+.todoTitle {
+  width: 42vw;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  /* font-family: sans-serif */
+}
+
+.todo-list-wrapper button {
+  /* margin-top: 13px; */
+  cursor: pointer;
+}
+
+.todo-list {
+  display: flex;
+  margin: 5px 0px;
+  border-radius: 0.35rem;
+  /* background: #cfcfcf; */
+  background: #8f8e8e;
+  ;
+}
+
+.todo-list button {
+  border: none;
+  background: none;
+}
+
+.box-wrapper {
+  display: flex;
+  justify-content: space-around;
+  height: 90.2vh;
+  align-items: center;
+  background-color: #3c3c3c;
+}
+.todo-list-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8vw;
+  background: black;
+  border-radius: 0.35rem;
+  color: white;
+  height: 5vh;
+  font-size: 0.9rem;
+}
+
+.todo-description-wrap {
+  background: #cfcfcf;
+  padding: 1rem;
+  border-radius: 0.35rem;
+  /* width: 30.6vw; */
+  font-size: 1rem;
+  font-weight: 500;
+  height: 20vh;
+  overflow: auto;
+}
+.todo-description {
+  width: 40vw;
+  word-wrap: break-word;
+}
+.todo-time {
+  font-size: 0.8rem;
+  font-weight: 600;
+  height: 3vh;
+  padding: 0.3rem;
+  border-radius: 0.25rem;
+  background: #0699a3;
+}
+.todo-Endtime {
+  margin-top: 5px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  height: 3vh;
+  padding: 0.3rem;
+  border-radius: 0.25rem;
+  background: #cd9292;
+}
+.count-3 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 10px;
+  cursor: grab;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  cursor: grab;
+  background: var(--secondary);
+}
+
+/* ========== Responsive========= */
+@media only screen and (max-width: 830px) {
+  .box-div-2 {
+    width: 50vw;
+  }
+  .todo-list-head {
+    width: 14vw;
+    height: 4vh;
+  }
+  .todo-description {
+    width: 27vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .dform {
+    width: 90vw;
+  }
+  .box-wrapper {
+    flex-direction: column;
+    height: 140vh;
+  }
+  .box-div-2 {
+    width: 75vw;
+  }
+  .todo-list-head {
+    width: 25vw;
+  }
+}
